@@ -1,0 +1,13 @@
+#!/bin/bash
+
+compile() {
+	clear
+	echo "Compiling... "
+	rm -rfv cli && g++ cli.cpp -o cli && ./cli
+}
+
+Main() {
+	compile
+}
+
+Main
